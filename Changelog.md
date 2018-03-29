@@ -3,6 +3,7 @@
 Features:
  * Code Generator: Initialize arrays without using ``msize()``.
  * Code Generator: More specialized and thus optimized implementation for ``x.push(...)``
+ * Code Generator: Use native shift instructions on target Constantinople.
  * Commandline interface: Error when missing or inaccessible file detected. Suppress it with the ``--ignore-missing`` flag.
  * General: Limit the number of errors output in a single run to 256.
  * General: Support accessing dynamic return data in post-byzantium EVMs.
